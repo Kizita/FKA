@@ -6,6 +6,13 @@
     
     
 }
+.navbar a:hover{
+    color: blue;
+
+}
+.navbar a{
+color: white;
+}
 .navbar{
     text-align: center;
     
@@ -14,8 +21,13 @@
 .fka{
     background-color: black;
     
+    
+}
+.bco{
+    background-image: url(images);
 }
 .navbar li{
     margin-left: 100px;
+    color: blue;
     
 }
