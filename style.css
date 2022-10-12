@@ -3,31 +3,64 @@
     justify-content: center;
     flex-direction: row;
     display: flex;
+    margin-left: 50px;
+    
     
     
 }
 .navbar a:hover{
-    color: blue;
+    color:red;
 
 }
 .navbar a{
-color: white;
+color:whitesmoke;
+text-decoration: none;
 }
 .navbar{
     text-align: center;
     
     padding: 10px;
 }
-.fka{
-    background-color: black;
+.navbar{
+    background-color: rgb(24, 48, 121);
+}
     
+    
+.bco1{
+    background-image: url(images/kk.jpg);
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
     
 }
+
+.na{
+    background-color: rgb(24, 48, 121);
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
 .bco{
-    background-image: url(images);
+    text-align: center;
+    background-color: white;
+    margin-top: 500px;
+    height: 150px;
+    width: 600px;
+margin-left: 30%;
+border-radius: 10px;
+box-shadow: 5px 5px 5px rgb(24, 48, 121);
 }
+.bco p{
+    padding: 5px;
+}
+
+
 .navbar li{
     margin-left: 100px;
     color: blue;
+    font-size: larger;
     
 }
