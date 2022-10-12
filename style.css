@@ -3,10 +3,12 @@
     justify-content: center;
     flex-direction: row;
     display: flex;
+  
     
 }
 .navbar{
     text-align: center;
+    
     
     padding: 10px;
 }
@@ -44,7 +46,57 @@
     border: none;
     border-radius: 10px;
 }
-.workdays{
+
+.how{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img2{
+    height: 266px;
+    width: 15%;
+}
+
+
+.img1{
+    height: 15%;
+    width: 15%;
+}
+
+.img3{
+    height: 18%;
+    width: 15%;
+}
+.images{
     display: flex;
-flex-direction: row;
+    flex-direction: row;
+}
+.cd{
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 30%;
+    
+}
+.cdaddress{
+    justify-content:space-between;
 }
