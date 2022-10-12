@@ -3,8 +3,9 @@
     justify-content: center;
     flex-direction: row;
     display: flex;
+
     margin-left: 50px;
-    
+
     
     
 }
@@ -19,7 +20,8 @@ text-decoration: none;
 .navbar{
     text-align: center;
     
-    padding: 10px;
+    
+    padding: 5px;
 }
 .navbar{
     background-color: rgb(24, 48, 121);
@@ -36,12 +38,17 @@ text-decoration: none;
     
 }
 
-.na{
+.navbar2{
     background-color: rgb(24, 48, 121);
     color: whitesmoke;
-    text-align: center;
-    padding: 10px;
+    
+    padding: 5px;
 }
+.navbar2 p{
+    text-align: center;
+    
+}
+
 
 .bco{
     text-align: center;
@@ -53,9 +60,8 @@ margin-left: 30%;
 border-radius: 10px;
 box-shadow: 5px 5px 5px rgb(24, 48, 121);
 }
-.bco p{
-    padding: 5px;
-}
+
+
 
 
 .navbar li{
@@ -63,4 +69,84 @@ box-shadow: 5px 5px 5px rgb(24, 48, 121);
     color: blue;
     font-size: larger;
     
+}
+.navbar a{
+    color: white;
+}
+.inp1{
+    margin-top: 80px;
+    height: 150px;
+    width: 40%;
+}
+
+.form input{
+    width: 30%;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.form button{
+    height: 50px;
+    width: 29.5%;
+    margin-left: 1%;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.how{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img2{
+    height: 266px;
+    width: 15%;
+}
+
+
+.img1{
+    height: 15%;
+    width: 15%;
+}
+
+.img3{
+    height: 18%;
+    width: 15%;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.cd{
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 30%;
+    
+}
+.cdaddress{
+    justify-content:space-between;
 }
