@@ -1,7 +1,80 @@
-.navbar ul{
+ body{
+     margin: 0;
+     padding: 0;
+
+ }
+ .real{
+    background-color:skyblue;
+    box-shadow: 5px 5px 5px black;
+    
+
+}
+.real3 {
+    color: white;
+    
+    
+}
+.real3 h1{
+    font-size: 80px;
+    margin-left: 25%;
+    margin-top: 15%;
+    font-style: oblique;
+    
+}
+.real2{
+    background-color: white;
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 20px;
+    box-shadow: 5px 5px 5px skyblue;
+    border-radius: 5px;
+}
+.real2 h5{
+    text-align: center;
+    text-shadow:5px 5px 5px rosybrown;
+
+}
+.real1{
+    background-color:skyblue;
+    justify-content: center;
+
+}
+
+.real1 p{
+    margin-left: 43%;
+}
+.real a{
+    color: black;
+    margin-left: 50px;
+    
+}
+.real ul{
+    margin-left: 20%;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.sec{
+    background-image: url(images/kk.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec1{
+    display: flex;
+    flex-direction:column;
+}
+
+/* 
+ .navbar ul{ 
     list-style: none;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: row;s
     display: flex;
 
     margin-left: 50px;
@@ -36,16 +109,21 @@ text-decoration: none;
     position: absolute;
     background-repeat: no-repeat;
     
+    
 }
 
 .navbar2{
     background-color: rgb(24, 48, 121);
     color: whitesmoke;
+    padding: 2px;
     
-    padding: 5px;
 }
 .navbar2 p{
     text-align: center;
+    
+}
+.na{
+    padding: 4px;
     
 }
 
@@ -72,7 +150,7 @@ box-shadow: 5px 5px 5px rgb(24, 48, 121);
 }
 .navbar a{
     color: white;
-}
+}  */
 .inp1{
     margin-top: 80px;
     height: 150px;
@@ -100,6 +178,14 @@ box-shadow: 5px 5px 5px rgb(24, 48, 121);
 .how{
     color: blue;
 }
+.navbar img{
+    margin-right: 70%;
+}
+
+
+
+
+
 
 
 
@@ -124,18 +210,26 @@ box-shadow: 5px 5px 5px rgb(24, 48, 121);
 .img2{
     height: 266px;
     width: 15%;
+    box-shadow: 3px 3px 3px 3px black;
 }
 
 
 .img1{
     height: 15%;
     width: 15%;
+    box-shadow: 3px 3px 3px  3px black;
+} 
+.images h3{
+    font-size: x-large;
 }
+
 
 .img3{
     height: 18%;
     width: 15%;
-}
+    box-shadow: 3px 3px 3px 3px black;
+
+} 
 .images{
     display: flex;
     flex-direction: row;
