@@ -41,7 +41,10 @@
     justify-content: center;
 
 }
-
+.col4 h5{
+    font-size: x-large;
+    margin-top: 20px;
+}
 .real1 p{
     margin-left: 43%;
 }
