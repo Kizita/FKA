@@ -3,6 +3,10 @@
      padding: 0;
 
  }
+ .sec1{
+     display: flex;
+     flex-direction: row;
+ }
  .real{
     background-color:skyblue;
     box-shadow: 5px 5px 5px black;
@@ -41,6 +45,30 @@
     justify-content: center;
 
 }
+.col7{
+    background-image: url(images/istockphoto-1164320058-170667a.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn1{
+    margin-left: 47%;
+    background-color: skyblue;
+    border-style: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.col9{
+    margin-left: 40%;
+    
+    color: white;
+    
+}
+.col10 ul{
+display: flex;
+flex-direction: column;
+}
 .col4 h5{
     font-size: x-large;
     margin-top: 20px;
@@ -52,6 +80,9 @@
     color: black;
     margin-left: 50px;
     
+}
+.form{
+    color: white;
 }
 .real ul{
     margin-left: 20%;
