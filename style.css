@@ -15,12 +15,14 @@
 }
 .real3 {
     color: white;
+    padding: 20px;
+    margin-top: -50px;
     
     
 }
 .real3 h1{
-    font-size: 80px;
-    margin-left: 25%;
+    font-size: 60px;
+    
     margin-top: 15%;
     font-style: oblique;
     
@@ -45,6 +47,7 @@
     justify-content: center;
 
 }
+
 .col7{
     background-image: url(images/istockphoto-1164320058-170667a.jpg);
     width: 100%;
@@ -53,11 +56,19 @@
     background-size: cover;
 }
 .btn1{
-    margin-left: 47%;
+    margin-left: 10%;
     background-color: skyblue;
     border-style: none;
     border-radius: 5px 5px 5px 5px;
+    
+    width: 150px;
+    height: 40px;
 }
+.btn1 a{
+    text-decoration: none;
+    
+}
+
 
 .col9{
     margin-left: 40%;
@@ -68,6 +79,19 @@
 .col10 ul{
 display: flex;
 flex-direction: column;
+}
+.r5{
+    color: white;
+}
+.r1 a{
+color: black;
+}
+
+.r1{
+    background-color: skyblue;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
 }
 .col4 h5{
     font-size: x-large;
@@ -81,8 +105,18 @@ flex-direction: column;
     margin-left: 50px;
     
 }
+.sec1{
+display: flex;
+flex-direction: row;
+}
 .form{
     color: white;
+}
+.real8{
+    color: white;
+    padding: 20px;
+    margin-top: -40px;
+    
 }
 .real ul{
     margin-left: 20%;
@@ -102,6 +136,7 @@ flex-direction: column;
 .sec1{
     display: flex;
     flex-direction:column;
+    padding: 30px;
 }
 
 /* 
